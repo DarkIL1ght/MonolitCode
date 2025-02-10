@@ -8,6 +8,7 @@ public abstract class Enemy {
     protected int damage;
     protected int experience;
 
+
     public Enemy(String name, int health, int damage, int experience) {
         this.name = name;
         this.health = health;
@@ -24,4 +25,6 @@ public abstract class Enemy {
     public int getExperience() {
         return experience;
     }
+
+
 }

@@ -1,10 +1,15 @@
+package level;
+
 import items.*;
 import enemies.*;
 import player.Player;
+
+
 import java.util.List;
 import java.util.ArrayList;
 
 public class LevelManager {
+
     private int level;
     private List<Enemy> enemies;
     private List<Item> items;
@@ -17,6 +22,7 @@ public class LevelManager {
     }
 
     private void initializeLevel() {
+
         enemies.clear();
         items.clear();
 
